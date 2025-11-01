@@ -193,7 +193,7 @@ export function ProfileForm() {
                 <Save className="h-4 w-4 mr-2" />
                 Enregistrer les modifications
               </Button>
-              <Link href="/dashboard" className="flex-1">
+              <Link to="/dashboard" className="flex-1">
                 <Button type="button" variant="outline" size="lg" className="w-full bg-transparent">
                   Annuler
                 </Button>

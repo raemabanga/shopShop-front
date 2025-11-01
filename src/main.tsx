@@ -16,7 +16,7 @@ import ProfilePage from "@/pages/profile"
 const router = createBrowserRouter([
   {
     path  : "/",
-    element: <div>Hello world!</div>,
+     element : <DashboardPage/>
   },
   {
     path: "/app",
